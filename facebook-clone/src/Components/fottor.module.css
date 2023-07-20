@@ -1,0 +1,47 @@
+.main{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: white;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.upper{
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+    width: 100%;
+    flex-wrap: wrap;
+    margin-left: 15%;
+    margin-top: 3%;
+}
+.upper li{
+    margin: 3px;
+    font-size: 10px;
+}
+.hr{
+    border-top: 2px solid #bbb;
+    width: 70%;
+}
+.firstRow, .secondRow, .thirdRow{
+    display: flex;
+}
+.firstRow li , .secondRow li, .thirdRow li{
+    margin: 3px;
+    list-style-type: none;
+}
+.firstRow li a, .secondRow li a , .thirdRow li a{
+    font-size: 15px;
+    color: black;
+    text-decoration: none;
+}
+
+.secondRow li a img{
+    width: 12px;
+}
+
+.main p{
+    margin-top: 10px;
+    font-size: 15px;
+}

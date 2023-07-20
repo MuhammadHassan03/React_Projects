@@ -1,0 +1,42 @@
+.navbar{
+    border: 0px;
+    border-radius: 0px;
+    display: flex;
+}
+
+.shoppingBag{
+    color: white;
+}
+.ShopText{
+    color: white;
+}
+.navDiv{
+    flex: 1;
+}
+
+.navDiv1, .navDiv2, .navDiv3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.navDiv1{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    padding: 1rem;
+}
+.navDiv3{
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    padding: 1rem;
+}
+.searchBox{
+    width: 30rem;
+}
+.ShopName{
+    text-decoration: none;
+    color: white;
+}

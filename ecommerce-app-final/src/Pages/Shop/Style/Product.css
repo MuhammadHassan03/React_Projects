@@ -1,0 +1,45 @@
+.product{
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;    
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    padding: 1rem;
+    border-radius: 2rem;
+    margin: 1.5rem;
+}
+.div1, .div2, .div3, .div4, .div5{
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex: 1;
+}
+.div2{
+    justify-content: flex-start;
+}
+.div3{
+    justify-content: flex-end;
+}
+.div4{
+    justify-content: flex-end;
+}
+.imageProduct{
+    width: 10rem;
+    height: 13rem;
+    mix-blend-mode: multiply;
+}
+.title{
+    font-size: 1.2rem;
+}
+.Price{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+.pricePs{
+    font-size: 1rem;
+    padding-left: 0.1rem;
+    padding-right: 0.1rem;
+    
+}

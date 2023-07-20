@@ -1,0 +1,124 @@
+.signup{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    background-color: #FFFFFF;
+}
+.form{
+    display: flex;
+    flex-wrap: wrap;
+    height: 30%;
+    width: 32%;
+    justify-items: center;
+    flex-direction: column;
+    background-color: white;
+    padding: 10px;
+    border-radius: 8px;
+    margin: 10px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 30px 30px;
+}
+
+img{
+   width: 12px; 
+}
+
+h1{
+    margin-top: -2%;
+    margin-left: 3px;
+}
+
+.p1{
+    margin-top: -6%;
+    margin-left: 3px;
+}
+
+.br1{
+    border-top: 10px solid black;
+    width: 95%;
+    margin-top: 6%;
+}
+.nameinputdiv{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+.nameinputdiv input{
+    width: 50%;
+    padding: 10px;
+    background-color: #FFFFFF;
+    border: 1px solid #CCD0D5;
+    margin-top: -5%;
+}
+input{
+    padding: 10px;
+    background-color: #FFFFFF;
+    border: 1px solid #CCD0D5;
+    margin: 4px;
+    border-radius: 4px;
+}
+
+#days , #month, #year{
+    width: 32%;
+    padding: 10px;
+    margin: 2px;
+    border: 1px solid #CCD0D5;
+}
+
+.dob{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.gender{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.igender{
+    display: flex;
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid #CCD0D5;
+    flex-direction: row;
+}
+.gender div{
+    display: flex;
+    border: 1px solid #CCD0D5;
+    width: 33%;
+    margin: 4px;
+    align-items: center;
+    border-radius: 2px;
+    justify-content: space-between;
+    padding-right: 10px;
+    height: 45px;
+}
+.p2{
+    font-size: 12px;
+    padding: 2px;
+}
+.p3{
+    font-size: 12px;
+    padding: 2px;
+    margin-top: -3%;
+}
+.divbtn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.btn{
+    padding: 10px;
+    border: none;
+    background-color: #42B72A;
+    color: white;
+    width: 30%;
+    font-size: 15px;
+    border-radius: 3px;
+}
+.dobLabel{
+    margin-left: 3px;
+}
