@@ -1,0 +1,30 @@
+.SplashScreen{
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.logoDiv img{
+    width: 3rem;
+}
+.metaDiv{
+    display: flex;
+    align-items: end;
+    justify-content: center;
+    
+}
+.metaDivDiv{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.metaDivDiv p{
+    font-size: 1rem;
+    padding-right: 0.3rem;
+}
+.metaDivDiv img{
+    width: 1.99rem;
+}

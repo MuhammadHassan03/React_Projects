@@ -1,0 +1,78 @@
+.headerDiv{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding: 8px;
+    margin-left: 10px;
+}
+.leftDiv{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+.menuIcon{
+    width: 3vh;
+    padding: 0px 12px 0px 7px;
+}
+.Logo{
+    width: 6vh;
+}
+.heading{
+    font-size: 24px;
+    font-weight: 400;
+    padding: 0px 0px 0px 12px;
+}
+.centerDiv{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: start;
+    width: 56%;
+    padding: 10px;
+    border-radius: 8px;
+    background-color: #F1F3F4;
+}
+.searchIcon{
+    width: 3vh;
+    padding: 0px 0px 0px 4px;
+}
+.searchBox{
+    width: 94%;
+    background-color: #F1F3F4;
+    border: none;
+    font-size: 18px;
+    margin: 0px 4px 0px 3px ;
+}
+.searchBox:focus{
+    outline: none;
+}
+.rightDiv{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.refreshIcon{
+    width: 4vh;
+    border-radius: 20px;
+    padding: 4px;
+    margin: 0px 10px 0px 0px;
+}
+.listView{
+    width: 4vh;
+    padding: 8px;
+    border-radius: 20px;
+}
+
+.settings{
+    width: 4vh;
+    padding: 4px;
+    border-radius: 20px;
+    margin: 0px 0px 0px 4px;
+}
+

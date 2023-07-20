@@ -1,0 +1,93 @@
+.mainDiv{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 100%;
+    margin-top: 10px;
+}
+.lowwerMainDiv{
+    width: 60%;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border: none;
+    border-radius: 8px;
+}
+img{
+    width: 3.3vh;
+    padding: 4px;
+    border-radius: 16px;
+}
+.div1{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+}
+.titleinput{
+    width: 90%; 
+    border: none;
+    outline: none;
+    padding: 10px;
+}
+.titleinput::placeholder{
+    font-size: 15px;
+    font-weight: 540;
+}
+
+.div2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 95.5%;
+}
+.addNoteInput{
+    width: 100%; 
+    border: none;
+    outline: none;
+    padding: 10px;
+}
+.addNoteInput::placeholder{
+    font-size: 15px;
+    font-weight: 540;
+}
+.div3{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0px 4px 0px 4px;
+    width: 100%;
+}
+.lidiv{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    margin: 0px 0px 0px 8px;
+    width: 90%;
+}
+.lidiv li{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.liLastDiv{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0px 8px 0px 0px;
+}
+.liLastDiv button{
+    padding: 6px 10px 6px 10px;
+    border: none;
+    background-color: white;
+}
+.liLastDiv button:hover{
+    background-color: aliceblue;
+}

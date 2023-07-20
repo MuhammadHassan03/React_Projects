@@ -1,0 +1,113 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.Header{
+    display: flex;
+    justify-content: space-between;
+}
+li{
+    list-style-type: none;
+}
+.leftDiv{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding: 0px;
+    margin: 0px;
+    padding: 10px;
+}
+.leftDivP1{
+    width: 62px;
+    height: 112px;
+    font-size: 100px;
+    line-height: 150px;
+    font-weight: 500;
+    user-select: none;
+}
+.leftDivP2{
+    font-size: 24px;
+    user-select: none;
+    line-height: 36px;
+}
+
+.rightDiv{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding: 10px;
+}
+.rightDiv div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.rightDiv button{
+    width: 72px;
+    height: 72px;
+    padding: 10px;
+    margin: 2px;
+    font-size: 24px;
+    background-color: white;
+    transition: 0.2s ease-in-out;
+}
+
+.rightDiv button:hover{
+    background-color: black;
+    color: white;
+}
+.p1{
+    display: none;
+}
+.p2Div{
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    width: 100%;
+}
+.p2Div p{
+    width: 100%;
+    text-align: end;
+}
+
+.gameBody{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+#btn1, #btn2{
+    border: none;
+    margin: 10px 18px 10px 18px;
+    width: 220px;
+    height: 44px;
+    background-color: white;
+    border: 1px solid black;
+    padding: 10px;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    transition: 0.4s ease-in-out;
+}
+#btn1{
+    background-color: white;
+    border: 1px solid black;
+}
+#btn2{
+    background-color: black;
+    border: 1px solid black;
+    color: white;
+}
+#btn1:hover{
+    background-color: black;
+    color: white;
+}
+#btn2:hover{
+    background-color: white;
+    color: black;
+}

@@ -1,0 +1,49 @@
+#mainDiv{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#leftDiv{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#rightDiv{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+#rightDiv h2{
+    font-weight: 700;
+    font-size: 96px;
+    line-height: 144px;
+}
+#divInRightDiv{
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    width: 100%;
+}
+#divInRightDiv button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    width: 220px;
+    height: 44px;
+    border-radius: 5px;
+    background-color: black;
+    gap: 8px;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    color: white;
+    transition: 0.4s ease-in-out;
+
+}
+#divInRightDiv button:hover{
+    color: black;
+    background-color: white;
+    border: 1px solid black;
+}

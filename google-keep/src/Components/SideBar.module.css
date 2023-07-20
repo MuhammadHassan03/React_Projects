@@ -1,0 +1,83 @@
+.sideBarMainDiv{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: start;
+    justify-content: start;
+    width: 23%;
+}
+.Divs{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: left;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    margin: 2px 0px 0px 4px;
+    background-color: white;
+    width: 90%;
+    transition: 0.2s;
+    cursor: pointer;
+}
+.Divs:hover{
+    background-color: #FEEFC3;
+}
+.bulbImg{
+    width: 3.2vh;
+    margin: 0px 55px 0px 20px;
+}
+.reminderImg{
+    width: 3.4vh;
+    margin: 0px 54px 0px 20px;
+}
+.editImg{
+    width: 2.9vh;
+    margin: 0px 56px 0px 20px;
+}
+.archieveImg{
+    width: 3.4vh;
+    margin: 0px 53px 0px 20px;
+}
+.binImg{
+    width: 3.1vh;
+    margin: 0px 55px 0px 20px;
+}
+
+.h2s{
+    align-items: center;
+    font-size: 16px;
+    font-weight: 400;
+}
+.h2Divs{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: auto;
+}
+.mainBodyDiv{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.mainbodyStyle{
+    display: flex;
+    flex-direction: column;
+    width: 76%;
+    height: auto;
+}
+.mainBodyDownDiv{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    opacity: 1;
+    height: 490px;
+}
+.imgMainBodyDownDiv{
+    width: 15vh;
+    opacity: 0.5;
+}
+.h2{
+    opacity: 0.5;
+}

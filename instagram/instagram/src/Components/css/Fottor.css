@@ -1,0 +1,24 @@
+.MainDiv{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.Fottor{
+    margin-bottom: 30px;
+    display: flex;
+    width: 70%;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+}
+.Fottor li{
+    list-style-type: none;
+    padding: 0.3rem;
+    opacity: 0.7;
+}
+.Fottor li a{
+    text-decoration: none;
+    color: black;
+    
+}
